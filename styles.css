@@ -1,0 +1,50 @@
+h1 {
+  padding: 100px;
+  font-size: 80px;
+  font-weight: normal;
+  font-family: 'Optima', sans-serif;
+  border: 1px solid black;
+  text-align: center;
+}
+
+body {
+  color: #414141; /*dark gray*/
+  background-color: #EEEEEE; /*light gray*/
+  /*the px is for pixel, em is pronounced "m" and means the current font size (starting with 1)*/
+  font-size: 18px;
+}
+
+h2, p, h3 {
+  font-family: 'Optima', sans-serif;
+  border: 1px solid #5D6063;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+em {
+  font-size: smaller;
+}
+
+p {
+  width: 700px;
+  margin: 10px auto;
+}
+
+h2, h3 {
+  width: 800px;
+  margin: 30px auto;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.page {
+  width: 800px;
+  margin: 0 auto;
+}
