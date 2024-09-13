@@ -1,25 +1,81 @@
+/*body {*/
+/*  border: 1px solid black;*/
+/*}*/
+
+/*h1, h2, h3, p, .navigation-bar {*/
+/*  border: 1px solid black;*/
+/*}*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1 {
-  padding: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   font-size: 80px;
   font-weight: normal;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
   font-family: 'Optima', sans-serif;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   text-align: center;
+}
+
+.main-title {
+  padding-top: 0px;
 }
 
 body {
   color: #414141; /*dark gray*/
-  background-color: #EEEEEE; /*light gray*/
+  background-color: #f4f4f4; /*light gray
   /*the px is for pixel, em is pronounced "m" and means the current font size (starting with 1)*/
   font-size: 18px;
 }
 
+
+.title-line {
+  border-top: 2px solid #333; /* Thickness and color of the line */
+  margin: 50px 60px; /* Spacing above and below the line */
+}
+/*.title-section {*/
+  /*background-color: #c5c5c5; */
+/*}*/
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+}
+
+.menu {
+  border: 1px solid #fff; 
+  width: 900px;
+}
+
 h2, p, h3 {
+  font-weight: normal;
   font-family: 'Optima', sans-serif;
-  border: 1px solid #5D6063;
+  /*border: 1px solid #5D6063;*/
   text-align: left;
   box-sizing: border-box;
+  padding: 20px 0px;
 }
+
+h3 {
+  font-weight: bold;
+  margin: 0px auto;
+  padding-top: 100px;
+  width: 650px;
+}
+
+.navigation-bar {
+  /*border: 1px solid #5D6063;*/
+  text-align: center;
+}
+
 
 em {
   font-size: smaller;
@@ -27,17 +83,18 @@ em {
 
 p {
   width: 700px;
-  margin: 10px auto;
+  margin: 0px auto;
 }
 
-h2, h3 {
-  width: 800px;
-  margin: 30px auto;
-
+h2 {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 50px 0px;
 }
 
 a {
   text-decoration: none;
+  font-family: 'Optima', sans-serif;
 }
 
 ul {
@@ -48,3 +105,112 @@ ul {
   width: 800px;
   margin: 0 auto;
 }
+
+/* this is for links, visited links, hovering, and clicking on links*/
+a:link {
+  color: #465594;
+  text-decoration: none;
+}
+a:visited {
+  color: #723d72;
+}
+a:hover {
+  color: #7daedf;
+  text-decoration: underline;
+}
+a:active {
+  color: #7daedf;
+}
+
+.button:link, .button:visited { 
+  /*display: block;        */
+  text-decoration: none;   
+  font-family: andale mono, monospace;
+  color: #414141;  
+  background-color: #f5f5f5;
+  font-weight: normal;
+  padding: 20px;
+  text-align: center;
+  /*border: 1px solid #5D6063;*/
+  /*border-radius: 5px;*/
+
+  width: 200px;
+  margin: 0px auto;
+}
+
+.button:hover, .button:visited:hover {
+  color: #aaa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* NAVIGATION BAR */
+
+
+.navbar-inverse .container-fluid {
+  display: flex;
+  position: relative;
+  align-items: center; /* Vertically center items */
+}
+
+/* Centering the navbar-nav */
+.navbar-inverse .navbar-nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Adds space between nav items */
+.navbar-inverse .navbar-nav > li {
+  margin-left: 20px; 
+}
+
+/*.navbar-inverse .navbar-nav > li{*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.navbar-inverse .navbar-header {*/
+/*  margin-right: 20px;*/
+/*  margin-left: 20px;*/
+/*  justify-content: flex-start;*/
+/*}*/
+
+.navbar-inverse .navbar-header a {
+    font-family: Snell Roundhand, cursive;
+    font-size: 40px;
+}
+
+/*.navbar-inverse {*/
+/*  background-color: #2c3e50; /* Change to any color you like */
+/*  border-color: #1a242f; /* Border color of the navbar */
+/*}*/
+
+/*.navbar-inverse .navbar-brand, */
+/*.navbar-inverse .navbar-nav > li > a {*/
+/*  color: #ecf0f1; /* Text color for the brand and links */
+/*}*/
+
+/*.navbar-inverse .navbar-nav > li.active > a,*/
+/*.navbar-inverse .navbar-nav > li.active > a:focus,*/
+/*.navbar-inverse .navbar-nav > li.active > a:hover {*/
+/*  background-color: #34495e; /* Background color for active link */
+ /* color: #ffffff; /* Text color for active link */
+/*}*/
+
+/*.dropdown-menu {*/
+/*  background-color: #34495e; /* Background of dropdown */
+ /* border-color: #1a242f; /* Border around dropdown */
+/*}*/
+
+/*.dropdown-menu > li > a {*/
+/*  color: #ecf0f1; /* Text color in dropdown */
+/*}*/
+
+/*.dropdown-menu > li > a:hover {*/
+/*  background-color: #1abc9c; /* Hover effect for dropdown items */
+/*  color: #ffffff;*/
+/*}*/

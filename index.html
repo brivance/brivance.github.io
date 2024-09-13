@@ -3,40 +3,48 @@
   <head>
     <title>Brianna White Site</title>
     <meta charset='UTF-8'/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel='stylesheet' href='styles.css'/>
   </head>
   <body>
-    <h1>Hi! My name is Brianna White.</h1>
+    
+    <div id="navbar"></div>
+    
+    <div class = 'title-section'>
+      <h3>hey, my name is</h3> 
+      <h1 class = 'main-title'>Brianna White.</h1>
+    
+      <div class='navigation-bar'>
+        <a class='button' href='https://github.com/brivance'>GITHUB</a>
+        <a class='button' href='https://linkedin.com/in/19briannawhite'>LINKEDIN</a>
+      </div>
+    </div>
+    
+    <hr class='title-line'>
+    
     <div class='page-body'>
-      <h2>Projects:</h2>
-      <ul>
-        <li><p><a href="chord-gen/index.html">Chord Generator (transformer)</a></p></li>
-        <li><p><a href="practice/index.html">Maternal Health Complications (Logistic Regression & KNN)</a></p></li>
-        <li><p><a href="practice/index.html">CAPTCHA Project (Resnet50)</a></p></li>
-      </ul>
-      <h2>Just For Fun:</h2>
-      <ul>
-        <li><p><a href="practice/index.html">HTML/CSS Practice</a></p></li>
-        <li><p><a href="kanye-tweets/index.html">Kanye West Tweets</a></p></li>
-      </ul>
-      <h2>Education:</h2>
-      <p>Brigham Young University (September 2019-June 2024)</p>
-      <p>Bachelor's in Computer Science with a Data Science Emphasis</p>
-      <p>Minor in Mathematics</p>
-      <h3>Coursework:</h3>
-      <ul>
-        <li><p>Statistics, Linear Algebra, Calculus</p></li>
-        <li><p>Web programming, Algorithm Design, Computer Systems</p></li>
-        <li><p>Machine Learning, Deep Learning, Stats/Mathetmatics for Data Scientists</p></li>
-      </ul>
-      <h2>Professional Experience:</h2>
-      <ul>
-        <li><p>NovaRad (Medical imaging company)</p>
-        <p><em>Provo, UT</em></p></li>
-        <li><p>Machine Learning (NLP/LLM) Research Assistant</p>
-        <p><em>Provo, UT</em></p></li>
-        <li><p>BYU Broadcasting</p><p><em>Provo, UT</em></p></li>
-      </ul>
+      
+      <div id = 'fun' class= 'fun-section'>
+        <h2>JUST FOR FUN:</h2>
+        <ul>
+          <li><p><a href="fun-links/kanye-tweets/index.html">Kanye West Tweets</a></p></li>
+          <li><p><a href="fun-links/weather-proj/index.html">Weather Forcast</a></p></li>
+        </ul>
+      </div>
+      
   </div>
+  
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+      // Load the navbar dynamically into the div with id="navbar"
+      $(function(){
+        $("#navbar").load("/navbar.html");
+      });
+    </script>
   </body>
 </html>

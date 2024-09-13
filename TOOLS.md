@@ -16,3 +16,10 @@ html template:
       
   </body>
 </html>
+
+
+also, i had to disable automatic shutdown. i did it by commenting out the line when i did the command
+sudo nano /etc/cron.d/c9-automatic-shutdown
+so to change it back just remove the "#" at the beginning of the line.
+
+update: i just turned it back on, so if you want to disable again, just put the # back at the beginning of the line.
