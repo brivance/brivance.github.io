@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel='stylesheet' href='styles.css'/>
+    <link rel="stylesheet" href="main-page-styles.css">
   </head>
   <body>
     
@@ -26,12 +27,39 @@
     
     <div class='page-body'>
       
-      <div id = 'fun' class= 'fun-section'>
-        <h2>JUST FOR FUN:</h2>
-        <ul>
-          <li><p><a href="fun-links/kanye-tweets/index.html">Kanye West Tweets</a></p></li>
-          <li><p><a href="fun-links/weather-proj/index.html">Weather Forcast</a></p></li>
-        </ul>
+      <div id = 'fun' class= 'section-with-list'>
+        <div class='section-list-description'>
+          <h2>FUN LINKS</h2>
+          <h3>These are some projects I've worked on just because!</h3>
+        </div>
+        
+        <hr class='section-list-line'>
+        <div class='list-section'>
+          <div class='list-description'>
+            <h2><a href="fun-links/kanye-tweets/index.html">Kanye West Tweets</a></h2>
+            <p>See the true genius in Kanye by generating some of his tweeted quotes</p>
+          </div>
+          <img class='list-img' src='main-images/kanye-tweet.jpeg' alt='A Kanye tweet about being surrounded by winners if he was in a room full of mirrors'/>
+        </div>
+        
+        <hr class='section-list-line'>
+        <div class='list-section'>
+          <div class='list-description'>
+            <h2><a href="fun-links/weather-proj/index.html">Weather Forecast</a></h2>
+            <p>View the weather in your favorite U.S. city</p>
+          </div>
+          <img class='list-img' src='main-images/rainy.jpg' alt='A man walks across a bridge with an umbrella in the rain'/>
+        </div>
+        <hr class='section-list-line'>
+        
+      </div>
+      
+
+      <div id = 'interests' class= 'section-with-list'>
+        <div class='section-list-description'>
+          <h2>ABOUT</h2>
+          <h3>Here are a few of my interests, if you would like to know</h3>
+        </div>
       </div>
       
   </div>
@@ -39,12 +67,8 @@
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script>
-      // Load the navbar dynamically into the div with id="navbar"
-      $(function(){
-        $("#navbar").load("/navbar.html");
-      });
-    </script>
+    <script src="script.js"></script>
+    
   </body>
+
 </html>
