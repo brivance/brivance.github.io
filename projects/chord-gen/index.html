@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Chord Generator</title>
+    <meta charset='UTF-8'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel='stylesheet' href='../../styles.css'/>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    
+    <div id="navbar"></div>
+
+    <div class='chord-header'>
+      <h1 class='chord-title'>CHORD GENERATOR</h1>
+      <img src='piano_keys.jpg' width='500' alt='Mochi image'/>
+    </div>
+    
+    <p>Need chords for the next part of your new song? No problem. Enter the chords you have currently, and new chord suggestions will appear for you.</p>
+    
+    <div class= 'input-box'>
+      <input type="text" id = "inputText" placeholder="Enter chords here">
+      <button id = 'generateButton' onclick="insertText()">Generate Chords</button>
+    </div>
+    
+    <div class= 'chord-suggestions'>
+      <p>CHORD SUGGESTIONS:</p>
+      <div id="output"></div>
+    </div>
+    
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script text="type/javascript" src="script.js"></script>
+    <script>
+      // Load the navbar dynamically into the div with id="navbar"
+      $(function(){
+        $("#navbar").load("../../navbar.html");
+      });
+    </script>
+  </body>
+</html>

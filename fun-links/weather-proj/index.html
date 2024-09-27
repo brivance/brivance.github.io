@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  
+  <body>
+    
+    <div id="navbar"></div>
+
+    <div class = 'body-under-nav'>
+    <h1>Weather Forecast</h1>
+    
+    <div class='search-city'>
+    <form>
+        <div class='enter-city'>
+          <label>Enter a U.S. city</label>
+          <input id="weatherInput" type="text" placeholder='e.g. Boise'></input>
+        </div>
+          <input id="weatherSubmit" type="submit" value="Submit"></input>
+    </form>
+    </div>
+    
+    <div id="weatherResults"></div>
+    <div id="forecastResults"></div>
+    
+    
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <script text="type/javascript" src="script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        
+    <script>
+      // Load the navbar dynamically into the div with id="navbar"
+      $(function(){
+        $("#navbar").load("../../navbar.html");
+      });
+    </script>
+    
+    </div>
+  </body>
+</html>

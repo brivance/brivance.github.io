@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Projects</title>
+    <meta charset='UTF-8'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel='stylesheet' href='../styles.css'/>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  
+  <body>
+    
+    <div id="navbar"></div>
+
+    <h1 class = 'main-title'>PROJECTS</h1>
+    
+    <div class='page-body'>
+        <div id = 'projects' class = 'project-section'>
+              <div class= 'section-with-list'>
+                <div class='section-list-description'>
+                  <h2>RECENT PROJECTS</h2>
+                  <h3>Some of the projects I've worked on lately</h3>
+                </div>
+                
+                <hr class='section-list-line'>
+                <div class='list-section'>
+                  <div class='list-description'>
+                    <h2><a href="chord-gen/index.html">Chord Generator</a></h2>
+                    <p>A transformer, trained on musical chord progressions of 1,000 songs. It's purpose is to give you chord sequence suggestions.</p>
+                  </div>
+                  <img class='list-img' src='images/musical_notes.jpg' alt='A music sheet'/>
+                </div>
+                
+              </div>
+                
+                
+              <div class= 'section-with-list'>
+                <div class='section-list-description'>
+                  <h2>MORE PROJECTS</h2>
+                  <h3>Projects I've worked on in the past</h3></h3>
+                </div>
+                
+                <hr class='section-list-line'>
+                <div class='list-section'>
+                  <div class='list-description'>
+                    <h2><a href="maternal-health-comp/index.html">Maternal Health Complications</a></h2>
+                    <p>A Linear Regression model and KNN model trained on ER patients records and demographics. </p>
+                    <p>It predicts whether or not a patient walking in to the ER is there for maternal complications.</p>
+                  </div>
+                  <img class='list-img' src='images/hospital.jpg' alt='A hospital building'/>
+                </div>
+                <hr class='section-list-line'>
+                
+                
+                <div class='list-section'>
+                  <div class='list-description'>
+                    <h2><a href="maternal-health-comp/index.html">CAPTCHA Recognition</a></h2>
+                    <p>A Resnet50 trained on captcha images and texts to pass self-made CAPTCHA tests.</p>
+                  </div>
+                  <img class='list-img' src='images/traffic_light.jpg' alt='A traffic light and building background'/>
+                </div>
+                <hr class='section-list-line'>
+                
+              </div>
+            
+            <!--  <li><p><a href="chord-gen/index.html">Chord Generator (Transformer)</a></p></li>-->
+            <!--  <li><p><a href="maternal-health-comp/index.html">Maternal Health Complications (Logistic Regression & KNN)</a></p></li>-->
+            <!--  <li><p><a href="captcha/index.html">CAPTCHA Project (Resnet50)</a></p></li>-->
+            <!--</ul>-->
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <script>
+      // Load the navbar dynamically into the div with id="navbar"
+      $(function(){
+        $("#navbar").load("../navbar.html");
+      });
+    </script>
+  </body>
+</html>
