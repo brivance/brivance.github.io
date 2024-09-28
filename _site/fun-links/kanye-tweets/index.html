@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <title>Kanye Quotes</title>
+        <meta charset='UTF-8'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel='stylesheet' href='../../styles.css'/>
+        <link rel='stylesheet' href='styles.css'/>
+    </head>
+    
+    <body>
+        
+        <div id="navbar"></div>
+
+        <h1>What does Kanye have to say?</h1>
+
+        <img src="kanye-west.png" alt="Kanye with a Balenciaga mouthgard in" class="center">
+        
+        <div id="newHtml"></div>
+    
+        <input onclick="change()" type="button" value="Click to find out!" id="button"></input>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+        <script text="type/javascript" src="script.js"></script>
+        
+        <script>
+          // Load the navbar dynamically into the div with id="navbar"
+          $(function(){
+            $("#navbar").load("../../navbar.html");
+          });
+        </script>
+    
+  </body>
+    
+</html>

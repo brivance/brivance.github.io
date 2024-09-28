@@ -1,0 +1,42 @@
+/*CHORDS PAGE*/
+
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+.input-box button {
+  margin: 0px;
+}
+
+.input-box {
+  padding: 70px;
+}
+
+.input-box #inputText {
+  padding-right: 30px;
+  margin-right: 20px;
+}
+
+img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.chord-title {
+  padding-bottom: 0px;
+  padding-top:80px;
+}
+
+.chord-header {
+  padding-bottom: 80px;
+}
+
+.input-box {
+  padding-bottom: 10px;
+}
+
+.chord-suggestions p {
+  padding-bottom: 5px;
+}

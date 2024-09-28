@@ -1,0 +1,63 @@
+h2, p {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    width: auto;
+}
+
+.work-description-section p {
+    text-align: left;
+}
+
+.work-description-section h3 {
+    padding: 0px;
+}
+
+.right-section h3, .right-section h4, .right-section p {
+    text-align: right;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.work-title-section p {
+    text-align: center;
+}
+
+.right-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.research-section, .novarad-section, .broadcasting-section {
+    display: flex;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+    margin: 0px 0px 200px 0px;
+    padding: 0px;
+    gap: 80px;
+}
+
+.education-img {
+    width: 500px;
+    length: auto;
+}
+
+.work-section {
+    margin: 0px 200px 0px 200px;
+}
+
+.work-description-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.work-description-section .work-title-section {
+    flex: 1;
+    box-sizing: border-box;
+}
+
