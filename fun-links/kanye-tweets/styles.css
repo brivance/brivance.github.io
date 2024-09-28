@@ -1,0 +1,127 @@
+h1, #button {
+    color: #593523;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.quote {
+    text-align: center;
+    display: block;
+  margin: auto;
+    
+}
+
+body {
+  padding-bottom: 100px;
+  background: white;
+}
+
+p {
+  font-size: 18px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#button {
+  font-family: 'Arvo';
+  font-size: 100%;
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  color: #202020;
+}
+
+#button:hover{
+    color: #ECD4C0;
+}
+
+#button:visited {
+    color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+a:static {
+    color: #FF5400;
+}
+a:visited {
+    color: white;
+}
+a:hover{
+    color: #FF0000;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 150%;
+  position: absolute;
+  text-align: left;
+  width: 40%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .centered {
+  
+  font-size: 50%;
+  
+}
+  
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .centered {
+  
+  font-size: 100%;
+  
+}
+}
