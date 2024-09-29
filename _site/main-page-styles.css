@@ -6,6 +6,10 @@
     margin-bottom: 50px;
 }
 
+h3 {
+  width: 650px;
+}
+
 /*.section-with-list h2 {*/
 /*    padding: 0px;*/
 /*    margin: 0px;*/
@@ -57,7 +61,7 @@
 /*}*/
 
 /*.section-list-line {*/
-  border-top: 3px solid #c5c3c3; /* Thickness and color of the line */
-  margin: 40px 80px 40px 80px; /* Spacing above and below the line */
+  /*border-top: 3px solid #c5c3c3; /* Thickness and color of the line */
+  /*margin: 40px 80px 40px 80px; /* Spacing above and below the line */
 /*}*/
 

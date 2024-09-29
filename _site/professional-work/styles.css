@@ -34,15 +34,15 @@ h4 {
 .research-section, .novarad-section, .broadcasting-section {
     display: flex;
     justify-content: space-between;
-    /*flex-wrap: wrap;*/
     margin: 0px 0px 200px 0px;
     padding: 0px;
-    gap: 80px;
+    gap: 200px;
+    max-width: 1300px;
 }
 
 .education-img {
     width: 500px;
-    length: auto;
+    /* length: auto; */
 }
 
 .work-section {
@@ -50,10 +50,13 @@ h4 {
 }
 
 .work-description-section {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
     word-wrap: break-word;
+    max-width: 550px;
+    height: auto;
 }
 
 .work-description-section .work-title-section {
