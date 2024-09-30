@@ -41,7 +41,7 @@ h4 {
 }
 
 .education-img {
-    width: 500px;
+    width: 600px;
     /* length: auto; */
 }
 
@@ -62,5 +62,9 @@ h4 {
 .work-description-section .work-title-section {
     flex: 1;
     box-sizing: border-box;
+}
+
+h4 {
+    padding: 0;
 }
 

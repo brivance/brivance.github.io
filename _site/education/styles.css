@@ -1,0 +1,39 @@
+.education-img {
+    width: 1000px;
+    height: auto;
+}
+
+.education-section, .education-section h2, .education-section h3, .education-section p {
+    text-align: center;
+    font-weight: normal;
+    padding: 0;
+}
+
+
+.byu-title h2 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: auto;
+}
+
+.byu-img-title h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.byu-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.byu-description h3 {
+    margin: 10px 0px 15px 0px;
+}
+
+.byu-description p {
+    font-weight: italic;
+}
