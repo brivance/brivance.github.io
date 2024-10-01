@@ -2,7 +2,6 @@ Caddy file path: /etc/caddy/Caddyfile
 
 Access caddy file: sudo nano /etc/caddy/Caddyfile
 
-
 html template with bootstrap:
 
 <!DOCTYPE html>
@@ -11,19 +10,18 @@ html template with bootstrap:
     <title>Title Page</title>
     <meta charset='UTF-8'/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel='stylesheet' href='styles.css'/>
   </head>
   <body>
   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
       
   </body>
   
 </html>
-
 
 also, i had to disable automatic shutdown. i did it by commenting out the line when i did the command
 sudo nano /etc/cron.d/c9-automatic-shutdown

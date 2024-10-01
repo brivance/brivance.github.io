@@ -182,33 +182,120 @@ body {
 }
 
 
-
 /* NAVIGATION BAR */
-.navbar-inverse .container-fluid {
-  display: flex;
-  position: relative;
-  align-items: center; /* Vertically center items */
-  font-family: 'Optima', sans-serif;
-  font-size: 18px;
+
+.navbar .container-fluid {
+    display: flex;
+    position: relative;
+    align-items: center;
 }
 
 /* Centering the navbar-nav */
-.navbar-inverse .navbar-nav {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+.navbar .navbar-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Optima', sans-serif;
+    font-size: 18px;
 }
 
 /* Adds space between nav items */
-.navbar-inverse .navbar-nav > li {
-  margin-left: 20px; 
+.navbar .navbar-nav .nav-item {
+    margin-left: 20px; 
 }
 
+/* Style for 'all-projects' link */
 .all-projects {
-  font-style: italic;
+    font-style: italic;
 }
 
-.navbar-inverse .navbar-header a {
-    font-family: Snell Roundhand, cursive;
+/* Styling the navbar-brand (header link) */
+.navbar .navbar-brand {
+    font-family: 'Snell Roundhand', cursive;
     font-size: 40px;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:link,
+.navbar .nav-link:visited,
+.navbar .nav-link:hover,
+.navbar .nav-link:active {
+color: white;
+text-decoration: none; /* Optional: Removes underline on hover or click */
+}
+
+/* Optional: Add a slightly different color on hover */
+.navbar .nav-link:hover {
+color: #cccccc; /* Light grey on hover */
+}
+
+.navbar .navbar-brand:link,
+.navbar .navbar-brand:visited,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active {
+    color: white;
+    text-decoration: none; /* Optional: Removes underline */
+}
+
+/* Optional: Change logo color on hover */
+.navbar .navbar-brand:hover {
+    color: #cccccc; /* Light grey on hover */
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.dropdown-item:link,
+.dropdown-item:visited,
+.dropdown-item:hover,
+.dropdown-item:active {
+    color: black;
+    text-decoration: none; /* Removes underline */
+}
+
+/* Optional: Hover effect for dropdown items */
+.dropdown-item:hover {
+    color: #333333; /* Dark grey on hover */
+}
+
+
+/* Hide navigation links on smaller screens */
+.nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+}
+
+.nav-links li {
+    margin: 0;
+    text-align: center;
+}
+
+/* Show nav-toggle (hamburger icon) on smaller screens */
+.nav-toggle {
+    display: none;
+    font-size: 2em;
+    color: white;
+    background: none;
+    border: none;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
 }
