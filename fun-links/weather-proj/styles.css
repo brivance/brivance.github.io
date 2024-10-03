@@ -229,20 +229,20 @@ text-decoration: none; /* Optional: Removes underline on hover or click */
 
 /* Optional: Add a slightly different color on hover */
 .navbar .nav-link:hover {
-color: #cccccc; /* Light grey on hover */
+color: rgb(165, 165, 165); /* Light grey on hover */
 }
 
 .navbar .navbar-brand:link,
 .navbar .navbar-brand:visited,
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:active {
-    color: white;
+    color: rgb(165, 165, 165);
     text-decoration: none; /* Optional: Removes underline */
 }
 
 /* Optional: Change logo color on hover */
 .navbar .navbar-brand:hover {
-    color: #cccccc; /* Light grey on hover */
+    color: rgb(165, 165, 165); /* Light grey on hover */
 }
 
 .dropdown-item {
@@ -280,7 +280,7 @@ color: #cccccc; /* Light grey on hover */
 .nav-toggle {
     display: none;
     font-size: 2em;
-    color: white;
+    color: rgb(165, 165, 165);
     background: none;
     border: none;
 }

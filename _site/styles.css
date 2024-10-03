@@ -81,12 +81,12 @@ em {
 }
 
 p {
-  width: 700px;
+  /* width: 700px; */
   margin: 0px auto;
 }
 
 h2 {
-  width: 1000px;
+  /* width: 1000px; */
   margin: 0px auto;
   padding: 50px 0px;
 }
@@ -165,6 +165,7 @@ html {
 /* Adds space between nav items */
 .navbar .navbar-nav .nav-item {
   margin-left: 20px; 
+  font-size: 20px;
 }
 
 /* Style for 'all-projects' link */
@@ -181,33 +182,33 @@ html {
 
 /* Ensuring all links in the navbar are white, regardless of state */
 .navbar .nav-link {
-  color: white;
+  color: rgb(165, 165, 165);
 }
 
 .navbar .nav-link:link,
 .navbar .nav-link:visited,
 .navbar .nav-link:hover,
 .navbar .nav-link:active {
-  color: white;
+  color: rgb(165, 165, 165);
   text-decoration: none; /* Optional: Removes underline on hover or click */
 }
 
 /* Optional: Add a slightly different color on hover */
 .navbar .nav-link:hover {
-  color: #cccccc; /* Light grey on hover */
+  color: rgb(165, 165, 165); /* Light grey on hover */
 }
 
 .navbar .navbar-brand:link,
 .navbar .navbar-brand:visited,
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:active {
-  color: white;
+  color: rgb(165, 165, 165);
   text-decoration: none; /* Optional: Removes underline */
 }
 
 /* Optional: Change logo color on hover */
 .navbar .navbar-brand:hover {
-  color: #cccccc; /* Light grey on hover */
+  color: rgb(165, 165, 165); /* Light grey on hover */
 }
 
 .dropdown-item {
@@ -263,6 +264,7 @@ html {
   .nav-links.active {
       display: flex;
   }
+
 }
 
 
@@ -275,14 +277,21 @@ html {
 }
 
 .section-list-description {
-    margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+.section-list-description h2, 
+.section-list-description h3 {
+  flex-basis: 100%;
+  box-sizing: border-box;
+  display: block;
 }
 
 .section-with-list {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 120px;
-    margin-top: 200px;
+  box-sizing: border-box;
 }
 
 .section-with-list h3 {
@@ -294,28 +303,31 @@ html {
 .list-section {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 60px;
 }
 
 .list-section p{
-  width: 500px;
   margin-left: 0px;
   margin-right: 0px;
 }
 
 .list-section h2 {
-  width: auto;
+  width: 80%;
   font-size: 25px;
   margin-bottom: 20px;
   margin-top: 50px;
 }
 
 .list-img {
-  width: 500px;
+  width: 500px;;
   height: auto;
-  margin-left: 30px;
+  /* flex: 1 1 50%;                  Image container takes 50% width initially */
+  min-width: 300px; 
+  max-width: 500px;
 }
 
 .section-list-line {

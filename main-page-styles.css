@@ -1,13 +1,25 @@
 .title-section h3 {
-    margin: 0px auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
 }
 
 .title-section .navigation-bar {
     margin-bottom: 50px;
 }
 
-h3 {
-  width: 650px;
+
+
+/* MEDIA SIZE SETTINGS */
+
+@media (max-width: 700px) {
+  .title-section h3 {
+    margin-left: 20px;
+    margin-right: auto; 
+  }
 }
+
+
 
 

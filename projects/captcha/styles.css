@@ -1,0 +1,15 @@
+.section-list-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+  /* Media query to change layout on smaller screens */
+@media (max-width: 600px) {
+    .section-list-description {
+      flex-direction: column; /* Stack the elements vertically */
+      text-align: center; /* Optional: Center the text */
+    }
+}
