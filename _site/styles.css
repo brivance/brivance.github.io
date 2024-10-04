@@ -211,8 +211,11 @@ html {
 }
 
 /* Optional: Hover effect for dropdown items */
-.dropdown-item:hover {
+.dropdown-item:hover,
+.dropdown-item:active,
+.dropdown-item:visited {
   color: #333333;
+  text-decoration: none;
 }
 
 .nav-links li {
@@ -235,7 +238,25 @@ html {
     background-color: #212529;
     width: 200px;
     right: 0;
-    left: 90%;
+    left: 80%;
+  }
+
+  .nav-bar .navbar-nav .nav-item{
+    margin-left: 0;
+  }
+
+  .navbardropdown.nav-link.dropdown-toggle {
+    text-align: center;
+  }
+
+  .dropdown-menu.show {
+    background-color: #212529;
+  }
+
+  .dropdown-item:hover,
+  .dropdown-item:active,
+  .dropdown-item:visited {
+    color: rgb(165, 165, 165);
   }
 
 }
@@ -299,7 +320,7 @@ html {
   width: 500px;;
   height: auto;
   /* flex: 1 1 50%;                  Image container takes 50% width initially */
-  min-width: 300px; 
+  min-width: 250px; 
   max-width: 500px;
 }
 
@@ -308,3 +329,9 @@ html {
   margin: 40px 80px 40px 80px;
 }
 
+@media (max-width: 700px) {
+  .list-section, .section-list-description {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
