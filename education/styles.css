@@ -1,6 +1,7 @@
 .education-img {
-    width: 1000px;
+    width: 90%;
     height: auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .education-section, .education-section h2, .education-section h3, .education-section p {
@@ -15,11 +16,13 @@
     padding: 0px;
     text-align: center;
     width: auto;
+    margin: 0 10px 0 10px;
 }
 
 .byu-img-title h2{
     margin-bottom: 30px;
     font-size: 40px;
+    margin: 0 10px 20px 10px;
 }
 
 .byu-description {
@@ -37,3 +40,7 @@
 .byu-description p {
     font-weight: italic;
 }
+
+/* @media (max-width: 900px) {
+
+} */
