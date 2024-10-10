@@ -317,7 +317,7 @@ html {
 }
 
 .list-img {
-  width: 500px;;
+  width: 500px;
   height: auto;
   /* flex: 1 1 50%;                  Image container takes 50% width initially */
   min-width: 250px; 
