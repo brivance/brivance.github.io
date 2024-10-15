@@ -61,13 +61,12 @@ h2, p, h3, h4 {
   /*border: 1px solid #5D6063;*/
   text-align: left;
   box-sizing: border-box;
-  padding: 20px 0px;
+  padding: 20px 0 0 0;
 }
 
 h3 {
   font-weight: bold;
   padding-top: 100px;
-  /* width: 650px; */
 }
 
 .navigation-bar {
@@ -81,12 +80,10 @@ em {
 }
 
 p {
-  /* width: 700px; */
   margin: 0px auto;
 }
 
 h2 {
-  /* width: 1000px; */
   margin: 0px auto;
   padding: 50px 0px;
 }
@@ -107,18 +104,18 @@ ul {
 
 /* this is for links, visited links, hovering, and clicking on links*/
 a:link {
-  color: #465594;
+  color: #414141;
   text-decoration: none;
 }
 a:visited {
-  color: #723d72;
+  color: #414141;
 }
 a:hover {
-  color: #7daedf;
-  text-decoration: underline;
+  color: #8497ab;
+  text-decoration: none;
 }
 a:active {
-  color: #7daedf;
+  color: #8497ab;
 }
 
 .button:link, .button:visited { 
@@ -169,13 +166,17 @@ html {
   display: block;
 }
 
+.list-description {
+  margin: 20px;
+}
+
 .section-with-list {
   box-sizing: border-box;
 }
 
 .section-with-list h3 {
     padding-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-weight: normal;
 }
 
@@ -187,6 +188,8 @@ html {
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 60px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .list-section p{
@@ -195,18 +198,22 @@ html {
 }
 
 .list-section h2 {
-  width: 80%;
-  font-size: 25px;
+  font-size: 40px;
   margin-bottom: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
+}
+
+.list-section p {
+  font-size: 20px;
+  max-width: 500px;
 }
 
 .list-img {
   width: 500px;
   height: auto;
-  /* flex: 1 1 50%;                  Image container takes 50% width initially */
   min-width: 250px; 
   max-width: 500px;
+  margin: 20px;
 }
 
 .section-list-line {
@@ -214,9 +221,20 @@ html {
   margin: 40px 80px 40px 80px;
 }
 
-@media (max-width: 700px) {
+.section-list-description {
+  margin-top: 100px;
+}
+
+@media (max-width: 1350px){
+  .list-section {
+    max-width: 500px;
+  }
   .list-section, .section-list-description {
     margin-left: 50px;
     margin-right: 50px;
+  }
+  .center-list-section {
+    display: flex;
+    justify-content: center;
   }
 }
