@@ -50,6 +50,15 @@ body {
   padding: 20px 0;
 }
 
+.navigation-bar {
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .menu {
   border: 1px solid #fff; 
   width: 900px;
