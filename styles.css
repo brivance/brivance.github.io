@@ -246,4 +246,26 @@ html {
     display: flex;
     justify-content: center;
   }
+
+  .title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 550px){
+  .list-section {
+    max-width: 350px;
+  }
+  .list-section, .section-list-description {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .center-list-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 50px;
+  }
 }

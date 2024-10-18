@@ -41,6 +41,8 @@
     font-weight: italic;
 }
 
-/* @media (max-width: 900px) {
-
-} */
+@media (max-width: 500px) {
+    .title {
+        font-size: 60px;
+    }
+}
