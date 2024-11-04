@@ -1,5 +1,9 @@
 /*CHORDS PAGE*/
 
+.title-line {
+  margin-bottom: 40px;
+}
+
 .input-box {
   display: flex;
   align-items: center;
