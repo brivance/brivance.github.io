@@ -12,6 +12,12 @@
     margin: 20px 0 0 0;
 }
 
+.maternal-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .project-description {
     margin: 50px;
 }
@@ -19,6 +25,17 @@
 .maternal-img {
     max-width: 800px;
     margin: 50px 0;
+}
+
+.proj-goals {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 200px 0 100px;
+}
+
+.proj-goals > * {
+    flex: 1; /* Each item will take up an equal amount of space */
 }
 
 @media (max-width: 1350px){
