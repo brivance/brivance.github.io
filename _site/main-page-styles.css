@@ -9,6 +9,10 @@
     margin-bottom: 50px;
 }
 
+.page-body {
+  margin: 0 100px;
+}
+
 .clickable-flexbox {
   display: inline-block; /* Keeps the flex container inside the link */
   text-decoration: none; /* Remove underline from the link */
@@ -18,8 +22,8 @@
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin: 0 80px;
   text-wrap: wrap;
-  margin: 0 200px
 }
 
 .photo-section-description {

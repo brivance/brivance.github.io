@@ -102,7 +102,7 @@ h2 {
   padding: 50px 0px;
 }
 
-a {
+a, li {
   text-decoration: none;
   font-family: 'Optima', sans-serif;
 }
@@ -199,8 +199,8 @@ html {
   justify-content: space-between;
   gap: 30px;
   flex-wrap: wrap;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
   margin-bottom: 60px;
   border-radius: 5px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
@@ -219,7 +219,7 @@ html {
 
 .list-section p {
   font-size: 20px;
-  max-width: 500px;
+  width: 500px;
 }
 
 .list-img {
