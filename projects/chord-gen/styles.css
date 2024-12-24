@@ -44,3 +44,49 @@ img {
 .chord-suggestions p {
   padding-bottom: 5px;
 }
+
+.page-body {
+  margin: 0px 200px 0px 200px;
+  gap: 20px;
+}
+
+.page-body h2 {
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.car-imgs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-description {
+  margin: 50px;
+}
+
+.car-img {
+  max-width: 350px;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.dataset-example-img {
+  max-width: 1000px;
+  margin: 30px 0;
+}
+
+.proj-goals {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 0 200px 0 100px;
+}
+  
+  /* Media query to change layout on smaller screens */
+@media (max-width: 600px) {
+    .section-list-description {
+      flex-direction: column; /* Stack the elements vertically */
+      text-align: center; /* Optional: Center the text */
+    }
+}

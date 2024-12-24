@@ -20,6 +20,41 @@
     <div class='navigation-bar'>
       <a class='button' href='https://github.com/brivance/chord-generator'>ACCESS THE CODE HERE</a>
     </div>
+
+    <div class='page-body'>
+      <div class='project-description'>
+        <h2>PROJECT DESCRIPTION</h2>
+        <p>As a pianist who has dabbled in composing, I wanted to train a model to produce coherent chord progressions to assist in the composition process.</p>
+        <p>The chosen model is a transformer, the code built almost completely from scratch, trained on chords from Ultimate Guitar.
+        <p>I chose a transformer model for its proven ability to generate coherent language sequences. Since sentences are sequential in nature, 
+          I believed the model would also perform well with chord sequences, which share similar sequential characteristics.</p>
+          <div class='car-imgs'>
+          <img class='car-img' src="images/transformer_gif.gif" alt="A transformer model gif"/></a>
+        </div>
+        <p><strong>Tools used:</strong> BeautifulSoup & Selenium Web Driver (for web scraping), Torch, Numpy, Sklearn, Transformers</p>
+        
+      </div>
+
+      <div class='project-description'>
+        <h2>PROGRESS</h2>
+          <p>I first needed a dataset. It was hard to find one online, so I created a web scraper to scrape chords from Ultimate Guitar. My dataset has over 1100 songs. 
+            Here is an example of a song from the dataset:
+          </p>
+            <div class='car-imgs'>
+              <img class='dataset-example-img' src="images/song_chords_example.jpg" alt="An example of a song from my dataset"/></a>
+            </div>
+          <p>Then I coded the architecture of a transformer model and trained it on my data.
+            This included preparing the data and vocabulary, refining the model parameters, and improving accuracy.
+          </p>
+      </div>
+
+      <div class='project-description'>
+        <h2>NEXT STEPS</h2>
+        <p>1. The chord outputs from the model need to be refined. This includes continuing to refine model parameters, and improving the dataset and vocabulary.</p>
+        <p>2. Ultimately, I would like to implement a more precise metric beyond simply playing the chords to evaluate their quality.</p>
+      </div>
+
+    </div>
     
     <!-- <p>Need chords for the next part of your new song? No problem. Enter the chords you have currently, and new chord suggestions will appear for you.</p> -->
     
