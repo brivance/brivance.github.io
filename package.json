@@ -1,0 +1,12 @@
+{
+  "name": "brivance.github.io",
+  "version": "1.0.0",
+  "description": "<p>My professional website! Featuring projects, education, and professional experience. Written in HTML, CSS, and JavaScript.</p> <p>View my website <a href='https://brivance.github.io'>here</a>.</p>",
+  "main": "navbar-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
